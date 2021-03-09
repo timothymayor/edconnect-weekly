@@ -21,11 +21,41 @@
 
     <main>
         <section>
+            <h3>Search Project By</h3>
+
+            <form name="searchForm">
+                <input type="text" name="searchTerm" placeholder="Project Name, Authors, Abstract, Tags" />
+                <br><br>
+                <label>Search By </label>
+                <br>
+                <select>
+                    <option value="Name">Name</option>
+                    <option value="Abstract">Abstract</option>
+                    <option value="Authors">Authors</option>
+                    <option value="Tags">Tags</option>
+                </select>
+                <br><br>
+
+                <input type="submit" value="Search"/>
+
+            </form>
             
-        </section>
+        </section> <br>
 
         <section>
-            
+            <h2>Search Result</h2>
+
+            <div>
+                <h3>Project 1</h3>
+                <ul>
+                    <li>Name: Project 1</li>
+                    <li>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et <br> dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea <br> commodo consequat.</li>
+                    <li>Program: Computer Science</li>
+                    <li>Authors: John Doe, Jane Doe</li>
+                    <li>Tags: #Asphyxia, #GSW</li>
+                    <li>Year: 2018</li>
+                </ul>
+            </div>
         </section>
     </main>
 </body>
